@@ -106,9 +106,9 @@ export default function Home() {
     doc.text(splitPK, 20, cursorY);
     cursorY += splitPK.length * lineHeight + lineHeight;
 
-    doc.text("Nama Ketua Panitia: [Nama]", 20, cursorY);
+    doc.text("Nama Ketua Panitia: Fidelis Yudistira Apriliano", 20, cursorY);
     cursorY += lineHeight;
-    doc.text("No. HP/WA: [Nomor]", 20, cursorY);
+    doc.text("No. HP/WA: 0851-5620-0367", 20, cursorY);
     cursorY += lineHeight * 2;
 
     // Penutup
@@ -180,9 +180,7 @@ export default function Home() {
             <Card>
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-4">Tujuan Kunjungan</h3>
-                <p className="text-gray-600">
-                  Bali, PT.Timedoor Indonesia
-                </p>
+                <p className="text-gray-600">Bali, PT.Timedoor Indonesia</p>
               </CardContent>
             </Card>
             <Card>
